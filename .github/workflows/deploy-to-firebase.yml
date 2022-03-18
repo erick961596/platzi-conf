@@ -35,6 +35,6 @@ jobs:
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           MAPS_GOOGLE: ${{ secrets.MAPS_GOOGLE }}
-        CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
 
           
